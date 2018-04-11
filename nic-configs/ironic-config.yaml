@@ -1,0 +1,15 @@
+parameter_defaults:
+    IronicEnabledDrivers:
+        - pxe_ssh
+        - pxe_ipmitool
+        - pxe_ilo
+    NovaSchedulerDefaultFilters:
+        - RetryFilter
+        - AggregateInstanceExtraSpecsFilter
+        - AvailabilityZoneFilter
+        - RamFilter
+        - DiskFilter
+        - ComputeFilter
+        - ComputeCapabilitiesFilter
+        - ImagePropertiesFilter
+    IronicCleaningNetwork: ba426799-e291-4bb6-9de1-949ec699bcea 

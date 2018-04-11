@@ -1,0 +1,40 @@
+{
+    "nodes": [
+        {
+            "pm_type":"pxe_ilo",
+            "mac":[
+                "EC:B1:D7:83:FD:64"
+            ],
+            "pm_user":"inwinstack",
+            "pm_password":"inwin888",
+            "pm_addr":"172.22.1.59"
+        },
+        {
+            "pm_type":"pxe_ilo",
+            "mac":[
+                "EC:B1:D7:83:24:DC"
+            ],
+            "pm_user":"inwinstack",
+            "pm_password":"inwin888",
+            "pm_addr":"172.22.1.62"
+        },
+        {
+            "pm_type":"pxe_ipmitool",
+            "mac":[
+                "90:2b:34:3f:a0:08"
+            ],
+            "pm_user":"admin",
+            "pm_password":"password",
+            "pm_addr":"172.22.1.11"
+        },
+        {
+            "pm_type":"pxe_ipmitool",
+            "mac":[
+                "90:2b:34:3f:98:0c"
+            ],
+            "pm_user":"admin",
+            "pm_password":"password",
+            "pm_addr":"172.22.1.3"
+        }
+    ]
+}
